@@ -1,0 +1,374 @@
+/* MUSTAFA ÖZVARDAR 2020507053 */
+
+.resimSlider{
+    height: 600px;
+    width: 1920px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.hakkimizda{
+    background-color: #f2f2f2;
+}
+
+.ayrac{
+    border:none;
+    border-top: 3px solid #343a40;
+    max-width: 250px;
+    margin: 25px auto;
+}
+
+.ibeyaz{
+    color:#343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border:10px solid white;
+    background-color: white;
+}
+
+.igri{
+    color:#343a40;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border:10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+.iyukarı{
+    font-size: 40px;
+}
+
+.ilogo{
+    font-size: 20px;
+}
+
+.ekipCard>img:hover{
+    opacity: 0.6;
+}
+
+.galeri {
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.6;
+}
+
+.dropdown-item{
+    color:black;
+}
+
+.form-control2{
+    height: 25px;
+}
+
+.btn2{
+    height: 25px;
+}
+
+.up-btn:hover{
+    opacity: 0.7;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand{
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#leftSidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #343a40;
+    left: -200px;
+    transition: all 0.5s linear;
+}
+
+#leftSidebar.active{
+    left: 0;
+}
+
+#leftSidebar ul li{
+    list-style: none;
+    padding: 10px 10px;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    transition: all 0.5s linear;
+    cursor:pointer;
+}
+
+#leftSidebar ul li a{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#leftSidebar ul li:hover{
+    background-color: #C0C0C0;
+}
+
+.leftSidebarButton{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    cursor: pointer;
+}
+
+.leftSidebarButton::before{
+    content: "\f0c9";
+    font-family: FontAwesome;
+    color:white;
+    position: absolute;
+    font-size: 28px;
+    background-color: #343a40;
+    padding: 3px 10px;
+    transition: all 0.5s linear;
+}
+
+.leftSidebarButton:hover::before{
+    background-color: #C0C0C0;
+}
+
+
+
+
+
+
+.contact .box-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.contact .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.contact .box-container .box i{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-top: 1rem;
+}
+
+.contact .box-container .box h3{
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.contact .box-container .box a{
+    display: block;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 2;
+}
+
+.contact .box-container .box a:hover{
+    color: var(--main-color);
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+ 
+ 
+
+  h2{
+    text-align: center;
+    color: black;
+  }
+  tr:hover {background-color: #C0C0C0;}
+
+.acilyazi{
+    margin-top: 8px;
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;    
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 3px 5px;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 1px;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 3px 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+.modaldiv{
+    margin-top: 30px;
+}
+
+.kayitol{
+    margin-top: 10px;
+}
+
+.giris{
+    float: left;
+    margin-left: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resim{
+    margin-left: 20px;
+}
+
+.resim2{
+    margin-right: 150px;
+}
+
+
+#btn{
+   border-radius:3px; 
+   width: 120px;
+   background-color: #ddd;
+   color: black;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+#btn2{
+    border-radius:3px; 
+    width: 120px;
+    background-color: #ddd;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: crimson;
+}
+
+#btn:hover{
+    background-color:#C0C0C0;
+}
+
+#btn2:hover{
+    background-color:#C0C0C0;
+}
+
+#txt1{
+    margin-top: 20px;
+    width: 210px;
+    margin-bottom: 50px;
+}
+
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    transition: opacity 0.90s,visibility 0.90s;
+}
+
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #A9A9A9;
+    border-radius: 50%;
+    animation: loading 0.90s ease infinite;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}

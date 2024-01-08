@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- yazı font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="images/galaxy.png" type="image/x-png">
+    <script src="https://kit.fontawesome.com/afb912e678.js" crossorigin="anonymous"></script>
+
+     <link rel="shortcut icon" href="images/adımlogo.png" type="image/x-png">
+    
+
+
+    <title>UZAY AJANS</title>
+  </head>
+  <body>
+
+    <!-- Menü kısmı başlangıc -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+            
+        <a class="navbar-brand" href="index.html">UZAY AJANS</a><a class="navbar-brand2" href="index.html"><img src="images/galaxy.png" width="40" height="40" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="index.html">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="hakkımızda.html">Hakkımızda</a>
+     
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="ekip.html">Ekibimiz</a>
+           
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="galeri.html">Galeri</a>
+          
+            </li>
+           
+           
+          
+            
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#iletisim">İletişim</a>
+                
+            </li>
+            <div id="leftSidebar" onclick="toggleleftsidebar()">
+    <ul>
+        <li><a href="görevler.html">Uzay Görevleri Hakkında</a></li>
+        <li><a href="ay.html">Ay Hakkında</a></li>
+        <li><a href="evren.html">Evren Hakkında</a></li>
+        <li><a href="yıldız.html">Yıldızlar Hakkında</a></li>
+        <li><a href="kennedy.html">Kennedy Uzay Merkezi Hakkında</a></li>
+    </ul>
+    <div class="leftSidebarButton"></div>
+  </div>
+            
+   
+    </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <!-- Menü kısmı bitis -->
+
+
+
+
+
+
+
+    <!-- İletisim baslangıc -->
+    <section class="p-5 text-center iletisim" id="iletisim">
+            <div class="container">
+                    <br>
+                   <h2 class="mb-5 font-weight-bold">İletişim</h2>
+                    <div class="loader"></div>
+
+                    <hr class="ayrac"> <i class="fa-sharp fa-solid fa-rocket ibeyaz"></i>
+
+                    <form action="" class="col-md-10 text-left m-auto">
+
+                        <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Ad:</strong></label>
+                             <input type="text" class="form-control col-md-8" required>
+                        </div>
+
+                         <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Soyad:</strong></label>
+                             <input type="text" class="form-control col-md-8" required>
+                        </div>
+
+                         <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>E-mail:</strong></label>
+                             <input type="email" class="form-control col-md-8" required>
+                             
+                        </div>
+
+                          <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Mesaj Aciliyeti:</strong></label>
+                             <input type="radio" id="acil" name="fav_language" value="acil">
+                              <label for="acil" class="acilyazi">Acil</label>
+                              
+                              <input type="radio" id="acildegil" name="fav_language" value="acildegil">
+                              <label for="acildegil" class="acilyazi">Acil Değil</label>                             
+                        </div>
+
+                        <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Ülke Sec:</strong></label>
+                            
+                              <select id="country" name="country">
+                                <option value="select" selected>-----------</option>
+                                <option value="volvo">Türkiye</option>
+                                <option value="saab">Poland</option>
+                                <option value="fiat">Germany</option>
+                                <option value="audi">Italy</option>
+                                <option value="saab">Norway</option>
+                                <option value="fiat">Sweden</option>
+                                <option value="audi">USA</option>
+                                <option value="saab">England</option>
+                                <option value="fiat">Canada</option>
+                                <option value="audi">Danmark</option>
+                              </select>
+                             
+                        </div>
+                         <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Dosya Sec:</strong></label>
+                             
+
+                                    <input type="file" id="files" name="files" multiple><br><br>
+                                  
+                        </div>
+
+                        <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Doğum Tarihi:</strong></label>
+                            <input type="date" id="start" name="trip-start"
+                              value="1-1-1"
+                              min="1950-01-01" max="2024-12-31">
+                                  
+                        </div>
+
+                        
+
+                         <div class="form-group row">
+                             <label for="" class="col-md-4 align-self-center"><strong>Mesajınız:</strong></label>
+                             <textarea name="" id="" cols="30" rows="7" class="form-control col-md-8" required></textarea>
+                        </div>
+
+                         
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked">
+                            <label class="form-check-label" for="flexSwitchCheckChecked">Tüm gizlilik ve verilerimin saklanmasına izin veriyorum.</label>
+                        </div><br>
+
+                         <div class="form-group row">
+                             <button type="submit" class="col-md-3 btn btn-primary" onclick="alert('Mesajınız başarıyla gönderildi.')">Gönder</button>
+                        </div>
+                    
+                    </form>
+           
+                  
+            </div>
+    </section>
+<section class="contact">
+    <div class="box-container">
+        <div class="box">
+           <i class="fas fa-phone"></i>
+           <h3>Telefon</h3>
+           <a href="tel:8502103425">8502103425 -</a>
+            <a href="tel:8502108077">8502108077</a>
+        </div>
+
+        <div class="box">
+           <i class="fas fa-envelope"></i>
+           <h3>E-mail adres</h3>
+           <a href="mailto:info@gmail.com">info@gmail.com</a>         
+            <a href="mailto:info@gmail.com">info2@gmail.com</a>   
+        </div>
+
+        <div class="box">
+           <i class="fas fa-map-marker-alt"></i>
+           <h3>Ofis adres</h3>
+           <a href="#">İstanbul-Üsküdar No:12 Fatih caddesi, Pınar sokak</a>
+          
+        </div>
+
+    </div>
+</section>
+
+    <!-- İletisim bitis -->
+
+
+    <!-- Footer alanı -->
+
+    <div class="bg-dark text-light text-center">
+        <p class="align-middle p-5 mb-0">
+            <span>Tüm hakları saklıdır &copy; | <b>2023</b></span><br><i class="fa-sharp fa-solid fa-rocket"></i>
+            <span>Düzenleyen: <b>" Mustafa Özvardar " </b></span><i class="fa-sharp fa-solid fa-rocket"></i>
+        </p>
+    </div>
+
+
+
+
+
+   
+
+     <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
