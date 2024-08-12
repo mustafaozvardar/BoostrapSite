@@ -11,5 +11,3 @@ window.addEventListener("load", ()=>{
     })
 })
 
-
-//MUSTAFA ÖZVARDAR 2020507053
