@@ -23,3 +23,19 @@ This project creates a space-themed website template using HTML, CSS, and JavaSc
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/space-agency-web.git
+   
+2. **Download Required Files:**
+After cloning the project, you can open the index.html file for necessary files and dependencies.
+
+3. **Run the Website:**
+Open the project in a browser to run it locally.
+
+## 📁 Project Structure
+
+- **index.html:** The main HTML file.
+- **css/style.css:** The project's stylesheet.
+- **js/main.js:** JavaScript functions and interactions.
+- **images/:** Image files.
+
+## 📝 License
+This project is licensed under the MIT License. For more information, please refer to the LICENSE file.
